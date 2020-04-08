@@ -1,0 +1,105 @@
+html, body, h1 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+#app {
+    background: #191919;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+#wrapper {
+	width: 75%;
+}
+
+
+#title {
+	font-family: 'Geo', sans-serif;
+    color: #24EDEC;
+    font-size: 6vw !important;
+	
+}
+
+i {
+    padding: 5px;
+    font-size:35px !important;
+}
+
+i:hover, i:focus, i:active, i.active, i:after, i:visited{
+    color:#24EDEC !important;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+
+.btn-primary{
+    background:aqua !important;
+    color:black !important;
+    font-family: 'Geo';
+    padding-top:0.8vw;
+    padding-bottom:0.8vw;
+    padding-left:1.8vw;
+    padding-right:1.8vw;
+    font-size:20px !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background:white !important;
+    color:black !important;
+}
+
+@media only screen and (min-width: 1025px) {
+
+    .btn-primary{
+        font-size:1.8vw !important;
+    }
+    
+    i {
+        font-size: 3vw !important;
+        padding: 5px;
+    }
+
+
+} 
+
+@media only screen and (max-width: 800px) {
+
+    .btn-primary{
+        font-size:5vw !important;
+    }
+    
+    i {
+        font-size: 7vw !important;
+        padding: 5px;
+    }
+    #title {
+        font-size: 9vw !important;
+        
+    }
+
+
+} 
+
+
+#stopka{
+    font-size:10px;
+}
